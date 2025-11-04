@@ -11,7 +11,7 @@ h4,
 h5,
 h6 {
   color: #ffd142;
-  border-radius: 50px;
+  /* border-radius: 50px; */
 }
 .navbar {
   background-color: #ffd142;
@@ -22,13 +22,13 @@ h6 {
   border-bottom-right-radius: 20px;
 }
 .link {
-  padding: 10px;
+  /* padding: 10px;
   text-decoration: none;
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
   box-shadow: 0 4px 4px #3e189468;
   border-left: #3d189468 1px solid;
-  border-top: #3e189468 1px solid;
+  border-top: #3e189468 1px solid; */
 }
 .link:hover {
   background-color: #3e1894;
@@ -103,7 +103,7 @@ h6 {
 }
 .der img {
   border-radius: 50%;
-  width: 200px;
+  /* width: 200px; */
 }
 
 .Destacados {
@@ -147,6 +147,32 @@ h6 {
   font-weight: 900;
 }
 
+/* .Hola{
+  border:  1px solid red;
+  margin: 20px;
+  padding: 20px;
+  background-color: greenyellow;
+  
+} */
+/* .Hola h1{
+  border: #795b00 1px solid;  
+  border-left: 3px solid purple;
+  margin: 20px; 
+  margin-bottom: 50px;
+  padding: 20px; 
+  padding-top: 50px;
+  background-color: pink;
+  /* border-radius: 30px; 
+  border-bottom-left-radius: 30px ;
+  border-bottom-right-radius: 30px ;
+  box-shadow: #3e1894 20px 30px 30px;
+  text-shadow: #fff7e4 2px 10px 0;
+  width: 300px;
+  height: 50px;
+  text-align: right;
+  color: #552583;
+}*/
+
 .footer {
   background-color: #ffd142;
   padding-top: 10px;
@@ -154,11 +180,49 @@ h6 {
   border-bottom-right-radius: 20px;
   border-top-left-radius: 20px;
 }
+/* .footer a{
+  color: pink;
+}
+.footer a:visited{
+  color: #00de1a;
+}
+.footer a:active{
+  color: red;
+}
+.footer a:hover{
+  color: blue;
+} */
+
+.tabla{
+  margin: 20px;
+}
+.tabla table{
+  border: 2px solid #fdb927;
+  /* border-collapse: collapse; */
+  margin: auto;
+  border-spacing: 20px;
+  empty-cells: hide;
+  caption-side:bottom;
+}
+.tabla table td{
+    border: 2px solid #fdb927;
+}
+.tabla table thead{
+  background-color: #333;
+  color: #fff;
+}
+.tabla table tfoot{
+  background-color: #333;
+  color: #fff;
+}
+
+
+
 .footer .copy {
   text-align: center;
 }
 .footer .copy p {
-  color: #3e1894;
+  /* color: #3e1894; */
 }
 .footer .social-logos {
   margin: auto;
