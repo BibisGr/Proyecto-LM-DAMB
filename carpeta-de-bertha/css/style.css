@@ -1,3 +1,170 @@
-body{
-    
+body {
+  background-color: #3e1894;
+  color: #ffd142;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffd142;
+  border-radius: 50px;
+}
+.navbar {
+  background-color: #ffd142;
+  margin: auto;
+  text-align: right;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.link {
+  padding: 10px;
+  text-decoration: none;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 4px 4px #3e189468;
+  border-left: #3d189468 1px solid;
+  border-top: #3e189468 1px solid;
+}
+.link:hover {
+  background-color: #3e1894;
+  transition: 0.5s;
+  color: #ffd142;
+}
+
+.hero {
+  border-left: #ffd142 2px solid;
+  height: 50vh;
+  background-image: url("../img/Fondo-Hero.jpg");
+  background-size: cover;
+  background-position: no-repeat;
+  color: #fff;
+  text-align: center;
+  border-top-left-radius: 55px;
+  border-top-right-radius: 45px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fdb927;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+.hero p {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.About-Us {
+  background-color: #ffd142;
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.izq {
+  width: 60%;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-left: 8px solid #552583; /* púrpura Lakers */
+  border-right: 8px solid #fdb927; /* dorado Lakers */
+  text-align: justify;
+  line-height: 1.6;
+  color: #333;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.izq h3 {
+  text-align: center;
+  color: #fdb927;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.izq p {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+.der {
+  text-align: center;
+}
+.der img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.Destacados {
+  padding: 20px;
+  border-right: #ffd142 1px solid;
+}
+
+.destacado {
+  width: 80%;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #eee;
+  border-left: 6px solid #552583; /* púrpura Lakers */
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  box-shadow: #fdb92794 4px 4px 10px;
+}
+.destacado:hover {
+  transition: 0.5s;
+  transform: scale(1.05);
+}
+
+.destacado h3 {
+  color: #ffd142;
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  padding: 20px;
+  width: fit-content;
+  text-align: center;
+}
+
+.destacado p {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.4;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.destacado a {
+  color: #dea700;
+  font-weight: 900;
+}
+
+.footer {
+  background-color: #ffd142;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.footer .copy {
+  text-align: center;
+}
+.footer .copy p {
+  color: #3e1894;
+}
+.footer .social-logos {
+  margin: auto;
+  text-align: center;
+}
+.footer .social-logos img {
+  width: 30px;
+  border-radius: 50%;
 }
