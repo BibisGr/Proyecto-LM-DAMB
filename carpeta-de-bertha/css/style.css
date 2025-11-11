@@ -159,6 +159,7 @@ h6 {
 
 .tabla2 {
   font-size: 25px;
+  margin-bottom: 50px;
 }
 .tabla2 h2{
   text-align: center;
@@ -186,6 +187,13 @@ h6 {
 }
 
 .formulario{
+  margin: 10px;
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
+
+}
+.formulario form{
   
 }
 
@@ -195,6 +203,18 @@ h6 {
   padding-bottom: 20px;
   border-bottom-right-radius: 20px;
   border-top-left-radius: 20px;
+  color: #333;
+}
+
+.nav-footer ul{
+  list-style:circle;
+}
+.nav-footer ol{
+  list-style: upper-roman;
+}
+
+li{
+  list-style-type: style circle;
 }
 
 .footer .copy {
