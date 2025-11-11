@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
-  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
@@ -54,7 +54,7 @@
     </div>
   </div>
   <div class="Destacados">
-    <div class="destacado">
+    <div class="destacado izq">
       <h3>Doncic lidera la victoria con triple-doble (29-11-10)</h3>
       <p>
         Luka Dončić registró 29 puntos, 11 rebotes y 10 asistencias para que
@@ -74,7 +74,7 @@
       </p>
     </div>
 
-    <div class="destacado">
+    <div class="destacado izq">
       <h3>LeBron James comparte anuncio personal mientras sigue de baja</h3>
       <p>
         Aunque aún no está en la cancha, LeBron hizo público un comunicado de
@@ -96,7 +96,7 @@
       </p>
     </div>
 
-    <div class="destacado">
+    <div class="destacado izq">
       <h3>
         Rumores sobre intercambio: ¿salida de Gabe Vincent para reforzar el
         equipo?
@@ -110,82 +110,146 @@
     </div>
   </div>
 
-  <div class="tabla">
-    <table >
-      <caption>estadisticas del equipos</caption>
+  <hr>
+
+  <div class="tabla2">
+    <h2>Tabla</h2>
+    <table>
       <thead>
         <tr>
-        <td>Temporadas</td>
-        <td>Ganadas</td>
-        <td>Perdida</td>
-        <td>AVE</td>
+          <!-- encabezado -->
+          <th>Departamento</th>
+          <th>Grupo</th>
+          <th>Trabajador</th>
+          <th>Salario Base</th>
+          <th>Horas Trabajadas</th>
+          <th>IVA</th>
+          <th>Pagado</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-            <td>25-26</td>
-            <td>10</td>
-            <td></td>
-            <td>25</td>
+          <td rowspan="12">Direccion</td>
+          <td rowspan="4">RH</td>
+          <td>María García López</td>
+          <td>$ 2200</td>
+          <td>40</td>
+          <td>21%</td>
+          <td>1738</td>
         </tr>
         <tr>
-            <td>24-25</td>
-            <td>50</td>
-            <td>10</td>
-            <td>25</td>
+
+          <td>Carlos Rodríguez Pérez</td>
+          <td>$ 1800</td>
+          <td>40</td>
+          <td>21%</td>
+          <td>1422</td>
         </tr>
         <tr>
-            <td>23-24</td>
-            <td></td>
-            <td>60</td>
-            <td>12</td>
+
+          <td>Ana Martínez González</td>
+          <td>$ 2000</td>
+          <td>40</td>
+          <td>21%</td>
+          <td>1580</td>
         </tr>
         <tr>
-            <td>22-23</td>
-            <td>49</td>
-            <td>50</td>
-            <td>25</td>
+
+          <td>Roberto Fernández Silva</td>
+          <td>$ 1900</td>
+          <td>40</td>
+          <td>21%</td>
+          <td>1501</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Secretaria</td>
+          <td>Elena Sánchez Ruiz</td>
+          <td>$ 1600</td>
+          <td>40</td>
+          <td>21%</td>
+          <td>1264</td>
+        </tr>
+        <tr>
+          <td>Sofía Navarro Castro</td>
+          <td>$ 1700</td>
+          <td>40</td>
+          <td>21%</td>
+          <td>1343</td>
+        </tr>
+        <tr>
+          <td>Patricia López Jiménez</td>
+          <td>$ 1550</td>
+          <td>40</td>
+          <td>21%</td>
+          <td>1225</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Administracion</td>
+          <td>Diego Gómez Torres</td>
+          <td>$ 2100</td>
+          <td>40</td>
+          <td>21%</td>
+          <td>1659</td>
+        </tr>
+        <tr>
+
+          <td>Javier Moreno Aguirre</td>
+          <td>$ 1950</td>
+          <td>40</td>
+          <td>21%</td>
+          <td>1540</td>
+        </tr>
+        <tr>
+
+          <td>Laura Vázquez Domínguez</td>
+          <td>$ 1850</td>
+          <td>40</td>
+          <td>21%</td>
+          <td>1461</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Finanzas</td>
+          <td>Marcos Suárez Henríquez</td>
+          <td>$ 2400</td>
+          <td>40</td>
+          <td>21%</td>
+          <td>1896</td>
+        </tr>
+        <tr>
+
+          <td>Verónica Romero Cabeza</td>
+          <td>$ 2250</td>
+          <td>40</td>
+          <td>21%</td>
+          <td>1777</td>
         </tr>
       </tbody>
       <tfoot>
         <tr>
-            <td>Total</td>
-            <td>300</td>
-            <td>250</td>
-            <td>165</td>
+          <td colspan="2" class="empty"></td>
+          <td class="totales">cantidad Trabajadores</td>
+          <td class="totales">Cantidad Sal. Base</td>
+          <td class="totales">Cantidad Horas</td>
+          <td class="totales">Total Iva</td>
+          <td class="totales">Total Pagado</td>
+        </tr>
+        <tr>
+          <td colspan="2"></td>
+          <td>12</td>
+          <td>$ 23,350</td>
+          <td>480</td>
+          <td>21%</td>
+          <td>18,407</td>
         </tr>
       </tfoot>
-      
     </table>
   </div>
 
-  <!-- <div class="tabla" >
-      <table summary="Info sobre Lakers">
-        <th >
-          <td colspan="4">Hola soy una celda1</td>
-        </th>
-        <tr >
-          <td colspan="2" >Hola soy una celda1</td>
-          <td colspan="2">Hola soy una celda2</td>
-        </tr>
-        <tr >
-          <td colspan=" 4">Hola soy una celda4</td>
-        </tr>
-      </table>
-    </div> -->
-
-  <!-- <div class="Hola">
-      <h1>Hola</h1>
-      <h1>Hola</h1>
-    </div> -->
+  <div class="formulario">
+    
+  </div>
 
   <div class="footer">
-    <!-- <div>
-        <h2>Contacto</h2>
-        <a href="mailto:bertha.mail@mail.com">Solicita Info </a>
-      <a href="#">Home</a>
-      <a href="#About-Us">Home</a>
-      </div> -->
     <div class="copy">
       <p>Todos los derechos reservados &copy; DAM 1B</p>
     </div>

@@ -4,6 +4,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
 }
+
 h1,
 h2,
 h3,
@@ -13,6 +14,7 @@ h6 {
   color: #ffd142;
   /* border-radius: 50px; */
 }
+
 .navbar {
   background-color: #ffd142;
   margin: auto;
@@ -21,15 +23,17 @@ h6 {
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
+
 .link {
-  /* padding: 10px;
+  padding: 10px;
   text-decoration: none;
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
   box-shadow: 0 4px 4px #3e189468;
   border-left: #3d189468 1px solid;
-  border-top: #3e189468 1px solid; */
+  border-top: #3e189468 1px solid;
 }
+
 .link:hover {
   background-color: #3e1894;
   transition: 0.5s;
@@ -68,7 +72,7 @@ h6 {
 .About-Us {
   background-color: #ffd142;
   padding: 20px;
-  border-top-right-radius: 20px;
+
   border-bottom-left-radius: 20px;
 }
 
@@ -77,8 +81,10 @@ h6 {
   margin: 10px auto;
   padding: 20px;
   background-color: #fff;
-  border-left: 8px solid #552583; /* púrpura Lakers */
-  border-right: 8px solid #fdb927; /* dorado Lakers */
+  border-left: 8px solid #552583;
+  /* púrpura Lakers */
+  border-right: 8px solid #fdb927;
+  /* dorado Lakers */
   text-align: justify;
   line-height: 1.6;
   color: #333;
@@ -98,12 +104,13 @@ h6 {
   margin-bottom: 15px;
   font-size: 1.1rem;
 }
+
 .der {
   text-align: center;
 }
+
 .der img {
   border-radius: 50%;
-  /* width: 200px; */
 }
 
 .Destacados {
@@ -116,11 +123,13 @@ h6 {
   margin: 20px auto;
   padding: 15px;
   background-color: #eee;
-  border-left: 6px solid #552583; /* púrpura Lakers */
+  border-left: 6px solid #552583;
+  /* púrpura Lakers */
   border-bottom-left-radius: 50px;
   border-top-right-radius: 50px;
   box-shadow: #fdb92794 4px 4px 10px;
 }
+
 .destacado:hover {
   transition: 0.5s;
   transform: scale(1.05);
@@ -142,36 +151,43 @@ h6 {
   padding-left: 30px;
   padding-right: 30px;
 }
+
 .destacado a {
   color: #dea700;
   font-weight: 900;
 }
 
-/* .Hola{
-  border:  1px solid red;
-  margin: 20px;
-  padding: 20px;
-  background-color: greenyellow;
-  
-} */
-/* .Hola h1{
-  border: #795b00 1px solid;  
-  border-left: 3px solid purple;
-  margin: 20px; 
-  margin-bottom: 50px;
-  padding: 20px; 
-  padding-top: 50px;
-  background-color: pink;
-  /* border-radius: 30px; 
-  border-bottom-left-radius: 30px ;
-  border-bottom-right-radius: 30px ;
-  box-shadow: #3e1894 20px 30px 30px;
-  text-shadow: #fff7e4 2px 10px 0;
-  width: 300px;
-  height: 50px;
-  text-align: right;
+.tabla2 {
+  font-size: 25px;
+}
+.tabla2 h2{
+  text-align: center;
+}
+
+.tabla2 table {
+  border: 1px salmon solid;
+  margin: 10px;
+  margin: auto;
+  empty-cells: hide;
+}
+
+.tabla2 table thead {
+  background-color: #fdb927;
   color: #552583;
-}*/
+}
+
+.tabla2 table tfoot .totales {
+  background-color: #eee;
+  color: #3e1894;
+}
+
+.tabla2 table td {
+  border: 1px salmon solid;
+}
+
+.formulario{
+  
+}
 
 .footer {
   background-color: #ffd142;
@@ -180,54 +196,20 @@ h6 {
   border-bottom-right-radius: 20px;
   border-top-left-radius: 20px;
 }
-/* .footer a{
-  color: pink;
-}
-.footer a:visited{
-  color: #00de1a;
-}
-.footer a:active{
-  color: red;
-}
-.footer a:hover{
-  color: blue;
-} */
-
-.tabla{
-  margin: 20px;
-}
-.tabla table{
-  border: 2px solid #fdb927;
-  /* border-collapse: collapse; */
-  margin: auto;
-  border-spacing: 20px;
-  empty-cells: hide;
-  caption-side:bottom;
-}
-.tabla table td{
-    border: 2px solid #fdb927;
-}
-.tabla table thead{
-  background-color: #333;
-  color: #fff;
-}
-.tabla table tfoot{
-  background-color: #333;
-  color: #fff;
-}
-
-
 
 .footer .copy {
   text-align: center;
 }
+
 .footer .copy p {
-  /* color: #3e1894; */
+  color: #3e1894;
 }
+
 .footer .social-logos {
   margin: auto;
   text-align: center;
 }
+
 .footer .social-logos img {
   width: 30px;
   border-radius: 50%;
